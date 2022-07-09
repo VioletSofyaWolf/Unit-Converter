@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
 
 * {
   box-sizing: border-box;
@@ -34,8 +34,13 @@ h1 {
 input {
   width: 117px;
   height: 83px;
-  border: 1px solid #b295ff;
+  border: 2px solid #b295ff;
   border-radius: 5px;
+  background: none;
+  color: whitesmoke;
+  font-size: 58px;
+  font-weight: 800px;
+  text-align: center;
 }
 
 .conversions {
@@ -46,6 +51,7 @@ input {
 }
 
 h3 {
+  padding-top: 25px;
   color: #ccc1ff;
   font-size: 20px;
 }
